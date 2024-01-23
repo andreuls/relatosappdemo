@@ -1,23 +1,25 @@
 <?php
 
-include_once ("modelo/Buscador.php");
-include_once ("Controlador.php");
+include_once("modelo/Buscador.php");
+include_once("Controlador.php");
 
 
 /* *******************************************************************************************
  
- * CLASE ControladorCaracteristicas
+ * CLASE ControladorCaracteristicashola
 
  * ***************************************************************************************** */
 
-class ControlCaracteristicas extends Controlador {
+class ControlCaracteristicas extends Controlador
+{
 
 
 	/* *******************************************************************************************
 	 * CONSTRUCTOR
 	 * ***************************************************************************************** */
-	
-	function __construct() {
+
+	function __construct()
+	{
 		parent::__construct();
 	}
 }
